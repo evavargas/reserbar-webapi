@@ -1,15 +1,12 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './App.css';
-import Values from './Values';
+import Layout from './hoc/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <Values></Values>
-      </header>
-     
-    </div>
+    <Fragment>
+      <Layout></Layout>
+    </Fragment>
   );
 }
 

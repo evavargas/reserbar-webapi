@@ -1,6 +1,7 @@
+
 import http from './httpService';
 
-const apiEndpoint = "/values";
+const apiEndpoint = '/values';
 
 export function getValues(){
     return http.get(apiEndpoint);
